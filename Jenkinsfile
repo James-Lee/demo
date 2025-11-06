@@ -60,7 +60,7 @@ pipeline {
 			    
 				script {
 				
-				    sh 'docker cp /var/jenkins_home/workspace/demo/demo/build/libs/demo.war tomcat_10_1:/usr/local/tomcat/webapps'
+				    sh 'docker cp /var/jenkins_home/workspace/demo/build/libs/demo.war tomcat_10_1:/usr/local/tomcat/webapps'
 				}
 
 			}
